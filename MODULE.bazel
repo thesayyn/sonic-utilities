@@ -109,12 +109,6 @@ local_path_override(
     path = "../sonic-build-infra"
 )
 
-bazel_dep(name = "sonic-bazel-common", version = "0.0.0", repo_name = "sonic_bazel_common")
-local_path_override(
-  module_name = "sonic-bazel-common",
-  path = "../sonic-buildimage/tools/sonic-bazel-common",
-)
-
 bazel_dep(name = "libyang3", version = "3.12.2")
 local_path_override(
     module_name = "libyang3",
