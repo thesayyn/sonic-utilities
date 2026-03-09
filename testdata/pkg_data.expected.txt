@@ -1,0 +1,12 @@
+drwxr-xr-x  0 1000   1000        0 Jan  1  2000 ./
+drwxr-xr-x  0 0      0           0 Jan  1  2000 ./usr/
+drwxr-xr-x  0 0      0           0 Jan  1  2000 ./usr/lib/
+drwxr-xr-x  0 0      0           0 Jan  1  2000 ./usr/lib/python3/
+drwxr-xr-x  0 0      0           0 Jan  1  2000 ./usr/lib/python3/dist-packages/
+drwxr-xr-x  0 0      0           0 Jan  1  2023 ./usr/lib/python3/dist-packages/generic_config_updater/
+-rwxr-xr-x  0 0      0        9383 Jan  1  2023 ./usr/lib/python3/dist-packages/generic_config_updater/gcu_field_operation_validators.conf.json
+-rwxr-xr-x  0 0      0        2749 Jan  1  2023 ./usr/lib/python3/dist-packages/generic_config_updater/gcu_services_validator.conf.json
+drwxr-xr-x  0 0      0           0 Jan  1  2023 ./usr/lib/python3/dist-packages/show/
+-rwxr-xr-x  0 0      0         168 Jan  1  2023 ./usr/lib/python3/dist-packages/show/aliases.ini
+drwxr-xr-x  0 0      0           0 Jan  1  2023 ./usr/lib/python3/dist-packages/sonic_installer/
+-rwxr-xr-x  0 0      0         154 Jan  1  2023 ./usr/lib/python3/dist-packages/sonic_installer/aliases.ini

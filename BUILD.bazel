@@ -3,6 +3,7 @@ load("@bazel_skylib//:bzl_library.bzl", "bzl_library")
 load("@gazelle//:def.bzl", "gazelle")
 load("@rules_deb//distroless:defs.bzl", "flatten")
 load("@sonic_build_infra//python:site_packages.bzl", "site_packages")
+load("@sonic_build_infra//tar:assert_tar.bzl", "assert_tar")
 load("@tar.bzl", "mutate", "tar")
 
 # Generate targets from rules_py instead of rules_python.
@@ -328,4 +329,22 @@ flatten(
     ],
     visibility = ["//visibility:public"],
     deduplicate = True,
+)
+
+assert_tar(
+    name = "libs_dist_test",
+    tar = ":libs_dist",
+    expected = "testdata/libs_dist.expected.txt",
+)
+
+assert_tar(
+    name = "pkg_data_test",
+    tar = ":pkg_data",
+    expected = "testdata/pkg_data.expected.txt",
+)
+
+assert_tar(
+    name = "dist_test",
+    tar = ":dist",
+    expected = "testdata/dist.expected.txt",
 )
