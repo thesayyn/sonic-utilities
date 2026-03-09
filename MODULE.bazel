@@ -34,6 +34,12 @@ local_path_override(
     path = "../sonic-buildimage/src/sonic-py-common",
 )
 
+bazel_dep(name = "libnl3", version = "3.7.0")
+local_path_override(
+    module_name = "libnl3",
+    path = "../sonic-buildimage/src/libnl3",
+)
+
 bazel_dep(name = "sonic-swss-common", version = "0.0.0", repo_name = "sonic_swss_common")
 local_path_override(
     module_name = "sonic-swss-common",
