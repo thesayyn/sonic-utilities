@@ -23,9 +23,10 @@ multitool.hub(lockfile = "//:multitool.lock.json")
 use_repo(multitool, "multitool")
 
 bazel_dep(name = "rules_distroless", version = "0.0.0", repo_name = "rules_deb")
-local_path_override(
+git_override(
     module_name = "rules_distroless",
-    path = "../rules_distroless"
+    commit = "ebfd74a2e07b83235e064bb63ace98a1a5223e02",
+    remote = "https://github.com/bazel-contrib/rules_distroless",
 )
 
 bazel_dep(name = "sonic-py-common", version = "0.0.0", repo_name = "sonic_py_common")
