@@ -348,5 +348,7 @@ assert_tar(
     name = "dist_test",
     tar = ":dist",
     expected = "testdata/dist.expected.txt",
-    inconsistent_sizes = ["./usr/lib/python3/dist-packages/libyang.so"],
+    inconsistent_sizes = [
+        "./usr/lib/python3/dist-packages/libyang.so",
+    ],
 )

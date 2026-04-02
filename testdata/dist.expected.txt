@@ -1437,7 +1437,7 @@ drwxr-xr-x  0 0      0           0 Jan  1  2023 ./usr/lib/python3/dist-packages/
 -rwxr-xr-x  0 0      0        1066 Jan  1  2023 ./usr/lib/python3/dist-packages/netifaces-0.11.0.dist-info/licenses/LICENSE
 -rwxr-xr-x  0 0      0          10 Jan  1  2023 ./usr/lib/python3/dist-packages/netifaces-0.11.0.dist-info/top_level.txt
 -rwxr-xr-x  0 0      0           1 Jan  1  2023 ./usr/lib/python3/dist-packages/netifaces-0.11.0.dist-info/zip-safe
--rwxr-xr-x  0 0      0       61208 Jan  1  2023 ./usr/lib/python3/dist-packages/netifaces.cpython-311-x86_64-linux-gnu.so
+-rwxr-xr-x  0 0      0       61216 Jan  1  2023 ./usr/lib/python3/dist-packages/netifaces.cpython-311-x86_64-linux-gnu.so
 -rwxr-xr-x  0 0      0      534241 Jan  1  2023 ./usr/lib/python3/dist-packages/openconfig_acl.py
 drwxr-xr-x  0 0      0           0 Jan  1  2023 ./usr/lib/python3/dist-packages/orderly_set-5.5.0.dist-info/
 -rwxr-xr-x  0 0      0          14 Jan  1  2023 ./usr/lib/python3/dist-packages/orderly_set-5.5.0.dist-info/INSTALLER
